@@ -18,6 +18,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install mlflow scikit-learn pandas numpy matplotlib seaborn
         
-    - name: Train Model
+    - name: Run MLflow Project
       run: |
+        
+        cd MLProject
         mlflow run . --env-manager=local
