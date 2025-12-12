@@ -1,4 +1,4 @@
-name: Breast Cancer Classification
+name: cancer_detection
 
 conda_env: conda.yaml
 

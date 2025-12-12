@@ -1,4 +1,4 @@
-name: breast-cancer-env
+name: cancer_env
 channels:
   - defaults
 dependencies:
@@ -9,5 +9,3 @@ dependencies:
     - scikit-learn
     - pandas
     - numpy
-    - matplotlib
-    - seaborn
